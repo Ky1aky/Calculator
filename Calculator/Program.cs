@@ -39,7 +39,7 @@ class Program
     {
         bool endApp = false;
         // Display title as the C# console calculator app.
-        Console.WriteLine("Console Calculator in C#\r");
+        Console.WriteLine("Advanced Console Calculator\r");
         Console.WriteLine("------------------------\n");
 
         while (!endApp)
