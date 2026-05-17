@@ -25,6 +25,9 @@ class Calculator
                     result = num1 / num2;
                 }
                 break;
+            case "r":
+                result = num1 % num2;
+                break;
             // Return text for an incorrect option entry.
             default:
                 break;
@@ -78,6 +81,7 @@ class Program
             Console.WriteLine("\ts - Subtract");
             Console.WriteLine("\tm - Multiply");
             Console.WriteLine("\td - Divide");
+            Console.WriteLine("\tr - Remainder");
             Console.Write("Your option? ");
 
             string? op = Console.ReadLine();
